@@ -1,5 +1,8 @@
 <div class="row">
     <div class="col">
-        <h1>app-root</h1>
+        <h1>{{nombre | titlecase }}</h1>
+        <h1>{{ valor | number }}</h1>
+        <h1>{{ obj | json}}</h1>
+        <button class="btn" (click)="cambiarNombre()">Cambiar Nombre</button>
     </div>
 </div>
